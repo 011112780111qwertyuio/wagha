@@ -1,0 +1,262 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.checkout {
+  background-color: white;
+  padding-bottom: 80px;
+}
+.checkout .flex-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.checkout .flex-section .left {
+  width: 60%;
+  padding-right: 35px;
+}
+.checkout .flex-section .left .top {
+  border-bottom: 1px solid rgb(173, 171, 171);
+}
+.checkout .flex-section .left .top p {
+  color: black;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.checkout .flex-section .left .flex-card {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.checkout .flex-section .left .flex-card .left-card {
+  display: flex;
+  width: 80%;
+  min-width: 80%;
+}
+.checkout .flex-section .left .flex-card .left-card .hide-mobile {
+  width: 25%;
+  min-width: 25%;
+  height: 140px;
+  overflow: hidden;
+}
+.checkout .flex-section .left .flex-card .left-card .hide-mobile .img {
+  width: 100%;
+  height: 100%;
+}
+.checkout .flex-section .left .flex-card .left-card .hide-mobile .img img {
+  width: 100%;
+  height: 100%;
+}
+.checkout .flex-section .left .flex-card .left-card .content-card {
+  padding-left: 20px;
+  width: 75%;
+  min-width: 75%;
+}
+.checkout .flex-section .left .flex-card .left-card .content-card .mytile {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.checkout .flex-section .left .flex-card .left-card .content-card p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.checkout .flex-section .left .flex-card .left-card .content-card p span {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.checkout .flex-section .left .flex-card .left-card .content-card span {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.checkout .flex-section .left .flex-card .right-card {
+  width: 20%;
+  padding-left: 10px;
+}
+.checkout .flex-section .left .flex-card .right-card p {
+  color: orange;
+  font-size: 19px;
+  font-weight: bold;
+  word-break: break-all;
+  text-align: end;
+}
+.checkout .flex-section .left .table {
+  background-color: #e6ebe9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 25px;
+}
+.checkout .flex-section .left .table .flex-table {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.checkout .flex-section .left .table .flex-table div {
+  width: 50%;
+  text-align: end;
+  padding: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+  font-size: 19px;
+  word-break: break-all;
+}
+.checkout .flex-section .left .table .flex-table .active {
+  color: orange;
+}
+.checkout .flex-section .right {
+  width: 40%;
+}
+.checkout .flex-section .right .title {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.checkout .flex-section .right form {
+  margin-top: 20px;
+}
+.checkout .flex-section .right form label {
+  font-size: 19px;
+  color: black;
+}
+.checkout .flex-section .right form input[type=text] {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgb(184, 182, 182);
+  font-size: 19px;
+  width: 100%;
+  border-radius: 5px;
+}
+.checkout .flex-section .right form .myfit {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e7ebe9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.checkout .flex-section .right form .myfit div p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  font-weight: bold;
+}
+.checkout .flex-section .right form .myfit div label {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+}
+.checkout .flex-section .right .box {
+  width: 100%;
+}
+.checkout .flex-section .right .box > p {
+  color: black;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkout .flex-section .right .box .flex-btn .top {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(175, 174, 174);
+  border-bottom: none;
+  font-weight: bold;
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+}
+.checkout .flex-section .right .box .flex-btn .secend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(175, 174, 174);
+  height: 50px;
+  width: 100%;
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.checkout .flex-section .right .box .flex-radio {
+  margin-top: 20px;
+}
+.checkout .flex-section .right .box .flex-radio label {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  padding-left: 10px;
+}
+.checkout .flex-section .right .box .content-text {
+  padding: 10px;
+  border: 1px solid rgb(163, 159, 159);
+  margin-top: 10px;
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  line-height: 25px;
+}
+.checkout .flex-section .right .box button {
+  background-color: #E92026;
+  width: 100%;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+@media (max-width: 856px) {
+  .checkout .content {
+    width: 100%;
+  }
+  .checkout .flex-section {
+    flex-direction: column;
+  }
+  .checkout .flex-section .left {
+    padding-right: 0px;
+    width: 100%;
+  }
+  .checkout .flex-section .right {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+@media (min-width: 9px) and (max-width: 390px) {
+  .checkout .flex-section {
+    zoom: 0.9;
+  }
+  .checkout .flex-section .left .flex-card .left-card .hide-mobile {
+    display: none;
+    width: 0px;
+  }
+}
+@media (min-width: 391px) and (max-width: 600px) {
+  .checkout .flex-section .left .flex-card .left-card .hide-mobile {
+    display: none;
+    width: 0px;
+  }
+}
+@media (min-width: 446px) and (max-width: 520px) {
+  .checkout .flex-section .left {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=checkout.css.map */

@@ -1,0 +1,95 @@
+@import '../options/variables.scss';
+
+
+.open-card {
+  height: auto !important;
+  overflow: visible !important;
+  border: 2px solid rgb(212, 211, 211);
+  padding-bottom: 30px;
+  padding-top: 10px;
+  transition: all 0.3s ease-in-out;
+
+  .flex-tile {
+    background-color: white !important;
+    transition: all 0.3s ease-in-out;
+
+    p {
+      color: black !important;
+    }
+
+    span {
+      color: black !important;
+      transform: rotate(3.142rad);
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+}
+
+.section-tour-plan {
+  padding-top: 30px;
+
+  .title-plan {
+    color: $colorBlack;
+    font-weight: bold;
+    font-size: $sizeLargText;
+
+  }
+
+  .flex-items {
+    padding-top: 35px;
+
+    .mycard {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      height: 70px;
+      margin-bottom: 15px;
+
+      
+
+      .flex-tile {  
+        &:hover {
+          cursor: pointer;
+        }
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: $colorPrimary;
+
+        p {
+          color: $colorWhite;
+          font-weight: bold;
+          font-size: $sizeMainText;
+        } 
+
+        span {
+          color: $colorWhite;
+          font-size: $sizeIconsMain;
+        }
+
+      }
+
+      .mycontent {
+        padding-left: 25px;
+        padding-right: 25px;
+
+        p {
+          color: $colorSubBlack;
+          font-size: $sizeMainText;
+          word-spacing: 2px;
+          line-height: 33px;
+        }
+      }
+
+
+    }
+  }
+}

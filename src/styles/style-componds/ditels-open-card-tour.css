@@ -1,0 +1,166 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.ditels-card-torur {
+  width: 100%;
+}
+.ditels-card-torur .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ditels-card-torur .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.ditels-card-torur .flex-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.ditels-card-torur .flex-content .left {
+  padding-right: 26px;
+}
+.ditels-card-torur .flex-content .left .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.ditels-card-torur .flex-content .left .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  line-height: 30px;
+}
+.ditels-card-torur .flex-content .right {
+  width: 75%;
+  margin-bottom: 20px;
+}
+.ditels-card-torur .flex-content .right img {
+  width: 100%;
+  height: 350px;
+}
+.ditels-card-torur .myoptions {
+  width: 100%;
+  margin-top: 25px;
+  position: relative;
+}
+.ditels-card-torur .myoptions::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgb(204, 203, 203);
+  bottom: -35px;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+}
+.ditels-card-torur .myoptions .mytile {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.ditels-card-torur .myoptions .flex-lest {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.ditels-card-torur .myoptions .flex-lest ul {
+  list-style-type: none;
+}
+.ditels-card-torur .myoptions .flex-lest ul li {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  text-transform: capitalize;
+  line-height: 40px;
+}
+.ditels-card-torur .myoptions .flex-lest ul li i {
+  margin-right: 10px;
+  font-size: 17px;
+}
+.ditels-card-torur .myoptions .flex-lest ul li .fa-xmark {
+  color: black;
+  font-weight: bold;
+}
+.ditels-card-torur .myoptions .flex-lest ul li .fa-check {
+  color: #E92026;
+  font-weight: bold;
+}
+.ditels-card-torur .myoptions .flex-lest .left {
+  width: 50%;
+}
+.ditels-card-torur .myoptions .flex-lest .right {
+  width: 40%;
+}
+.ditels-card-torur .section-Amenities {
+  margin-top: 80px;
+}
+.ditels-card-torur .section-Amenities .mytile-Amenities {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.ditels-card-torur .section-Amenities .flex-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div {
+  width: 30%;
+  min-width: 30%;
+  margin-right: 25px;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div .item {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div .item:last-child {
+  margin-right: 0px;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div .item label {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  text-transform: capitalize;
+  text-wrap: nowrap;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div .item i {
+  color: #E92026;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.ditels-card-torur .section-Amenities .flex-amenities > div .item img {
+  width: 20px;
+  height: 20px;
+  color: #E92026;
+}
+
+@media (max-width: 1100px) {
+  .ditels-card-torur .flex-content {
+    flex-direction: column;
+  }
+  .ditels-card-torur .flex-content .left {
+    order: 2;
+  }
+  .ditels-card-torur .flex-content .right {
+    order: 1;
+    width: 100%;
+  }
+  .ditels-card-torur .flex-content .right img {
+    width: 100%;
+  }
+}
+@media (min-width: 3px) and (max-width: 690px) {
+  .ditels-card-torur .section-Amenities .flex-amenities {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=ditels-open-card-tour.css.map */

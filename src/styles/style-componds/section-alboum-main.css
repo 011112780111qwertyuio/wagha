@@ -1,0 +1,62 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-alboum-main {
+  position: relative;
+  height: 350px;
+}
+.section-alboum-main img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.section-alboum-main::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.408);
+  z-index: 1;
+}
+.section-alboum-main .flex {
+  z-index: 999;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.section-alboum-main .flex p {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-alboum-main .flex .flexx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-alboum-main .flex .flexx a,
+.section-alboum-main .flex .flexx span {
+  color: rgb(242, 239, 239);
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.section-alboum-main .flex .flexx span {
+  margin-left: 10px;
+  margin-right: 10px;
+}/*# sourceMappingURL=section-alboum-main.css.map */

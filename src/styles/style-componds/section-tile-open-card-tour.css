@@ -1,0 +1,87 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-tile-open-card-tour {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f4f3;
+}
+.section-tile-open-card-tour .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section-tile-open-card-tour .flex .left .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.section-tile-open-card-tour .flex .left .flex-text {
+  display: flex;
+}
+.section-tile-open-card-tour .flex .left .flex-text span {
+  color: #E92026;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.section-tile-open-card-tour .flex .left .flex-text p {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  text-transform: uppercase;
+}
+.section-tile-open-card-tour .flex .right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-tile-open-card-tour .flex .right .mycard {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+.section-tile-open-card-tour .flex .right .mycard > div i {
+  font-size: 25px;
+  color: #E92026;
+}
+.section-tile-open-card-tour .flex .right .mycard .column {
+  padding-left: 15px;
+}
+.section-tile-open-card-tour .flex .right .mycard .column .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.section-tile-open-card-tour .flex .right .mycard .column .price {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media (max-width: 1114px) {
+  .section-tile-open-card-tour .content {
+    width: 100%;
+  }
+}
+@media (min-width: 30px) and (max-width: 1006px) {
+  .section-tile-open-card-tour .content {
+    padding-left: 0px;
+  }
+  .section-tile-open-card-tour .flex {
+    flex-direction: column;
+  }
+  .section-tile-open-card-tour .flex .left {
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+  .section-tile-open-card-tour .flex .right {
+    padding-top: 30px;
+    padding-left: 15px;
+    border-top: 2px solid rgb(193, 191, 191);
+  }
+  .section-tile-open-card-tour .flex .right .mycard {
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+}/*# sourceMappingURL=section-tile-open-card-tour.css.map */

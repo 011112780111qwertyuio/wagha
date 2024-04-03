@@ -1,0 +1,359 @@
+@import '../options/variables.scss';
+
+.checkout {
+  background-color: white;
+  padding-bottom: 80px;
+
+  .flex-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+    .left {
+      width: 60%;
+      padding-right: 35px;
+
+      .top {
+        border-bottom: 1px solid rgb(173, 171, 171);
+
+        p {
+          color: $colorBlack;
+          font-size: $sizeLargText;
+          text-transform: capitalize;
+          font-weight: bold;
+          padding-bottom: 20px;
+
+        }
+      }
+
+      .flex-card {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+
+        .left-card {
+          display: flex;
+          width: 80%;
+          min-width: 80%;
+
+          .hide-mobile {
+            width: 25%;
+            min-width: 25%;
+            height: 140px;
+            overflow: hidden;
+
+            .img {
+              width: 100%;
+              height: 100%;
+
+              img {
+                width: 100%;
+                height: 100%;
+
+              }
+            }
+          }
+
+          .content-card {
+            padding-left: 20px;
+            width: 75%;
+            min-width: 75%;
+
+            .mytile {
+              color: $colorBlack;
+              font-size: $sizeMainText;
+              font-weight: bold;
+              text-transform: capitalize;
+            }
+
+            p {
+              color: $colorSubBlack;
+              font-size: $sizeMainText;
+              margin-bottom: 10px;
+
+              span {
+                color: $colorBlack;
+                font-size: $sizeMainText;
+                font-weight: bold;
+                text-transform: capitalize;
+              }
+            }
+
+            span {
+              color: $colorBlack;
+              font-size: $sizeMainText;
+              font-weight: bold;
+              text-transform: capitalize;
+              line-height: 30px;
+            }
+          }
+
+        }
+
+        .right-card {
+          width: 20%;
+          padding-left: 10px;
+
+          p {
+            color: orange;
+            font-size: $sizeMainText;
+            font-weight: bold;
+            word-break: break-all;
+            text-align: end;
+          }
+        }
+      }
+
+      .table {
+        background-color: #e6ebe9;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin-top: 25px;
+
+        .flex-table {
+          display: flex;
+          width: 100%;
+          justify-content: flex-end;
+
+          div {
+            width: 50%;
+            text-align: end;
+            padding: 20px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            color: $colorSubBlack;
+            font-weight: bold;
+            font-size: $sizeMainText;
+            word-break: break-all;
+
+          }
+
+          .active {
+            color: orange;
+          }
+        }
+      }
+
+    }
+
+    .right {
+      width: 40%;
+
+      .title {
+        color: $colorBlack;
+        font-weight: bold;
+        font-size: $sizeLargText;
+
+      }
+
+      form {
+        margin-top: 20px;
+
+        label {
+          font-size: $sizeMainText;
+          color: $colorBlack;
+        }
+
+        input[type="text"] {
+          padding: 10px;
+          margin-top: 5px;
+          margin-bottom: 20px;
+          outline: none;
+          border: 1px solid rgb(184, 182, 182);
+          font-size: $sizeMainText;
+          width: 100%;
+          border-radius: 5px;
+        }
+
+        .myfit {
+          display: flex;
+          justify-content: space-around;
+          background-color: #e7ebe9;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: 20px;
+          border-radius: 5px;
+
+          div {
+            p {
+              color: $colorSubBlack;
+              font-size: $sizeMainText;
+              font-weight: bold;
+            }
+
+            label {
+              font-size: $sizeMainText;
+              color: $colorSubBlack;
+              font-weight: bold;
+            }
+          }
+
+        }
+      }
+
+      .box {
+        width: 100%;
+
+        &>p {
+          color: $colorBlack;
+          font-size: $sizeLargText;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        .flex-btn {
+          .top {
+            width: 100px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(175, 174, 174);
+            border-bottom: none;
+            font-weight: bold;
+            font-size: $sizeMainText;
+            color: $colorSubBlack;
+
+          }
+
+          .secend {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(175, 174, 174);
+            height: 50px;
+            width: 100%;
+            color: $colorSubBlack;
+            font-size: $sizeMainText;
+
+          }
+
+
+        }
+
+        .flex-radio {
+          margin-top: 20px;
+
+          label {
+            font-size: $sizeMainText;
+            color: $colorSubBlack;
+            padding-left: 10px;
+          }
+        }
+
+        .content-text {
+          padding: 10px;
+          border: 1px solid rgb(163, 159, 159);
+          margin-top: 10px;
+          font-size: $sizeMainText;
+          color: $colorSubBlack;
+          line-height: 25px;
+
+        }
+
+        button {
+          background-color: $colorPrimary;
+          width: 100%;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: 25px;
+          color: $colorWhite;
+          font-size: $sizeMainText;
+          font-weight: bold;
+          text-transform: capitalize;
+          border-radius: 10px;
+
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width:856px) {
+  .checkout {
+    .content {
+      width: 100%;
+    }
+
+    .flex-section {
+      flex-direction: column;
+
+      .left {
+        padding-right: 0px;
+
+        width: 100%;
+
+      }
+
+      .right {
+        width: 100%;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width:9px) and (max-width:390px) {
+  .checkout {
+    .flex-section {
+      zoom: 0.9;
+
+      .left {
+
+        .flex-card {
+          .left-card {
+            .hide-mobile {
+              display: none;
+              width: 0px;
+            }
+
+
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (min-width:391px) and (max-width:600px) {
+  .checkout {
+    .flex-section {
+
+      .left {
+
+        .flex-card {
+          .left-card {
+            .hide-mobile {
+              display: none;
+              width: 0px;
+            }
+
+
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (min-width:446px) and (max-width:520px) {
+  .checkout {
+    .flex-section {
+
+      .left {
+        zoom: 0.9;
+      }
+
+
+    }
+  }
+}

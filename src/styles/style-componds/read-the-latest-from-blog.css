@@ -1,0 +1,93 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.read-the-latest-from-blog {
+  padding-top: 30px;
+}
+.read-the-latest-from-blog .title {
+  color: black;
+  font-size: 28px;
+}
+.read-the-latest-from-blog .sub-title {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-top: 10px;
+}
+.read-the-latest-from-blog .flex-cards {
+  padding-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.read-the-latest-from-blog .flex-cards .card {
+  width: 32%;
+  margin-top: 50px;
+}
+.read-the-latest-from-blog .flex-cards .card .view {
+  height: 250px;
+  overflow: hidden;
+}
+.read-the-latest-from-blog .flex-cards .card .view img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.read-the-latest-from-blog .flex-cards .card .view img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .flex-title {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 15px;
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .flex-title p {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .flex-title span {
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .title-ditels {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .ditels {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.read-the-latest-from-blog .flex-cards .card .content-card .red-more {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 15px;
+  border-bottom: 4px solid #E92026;
+  width: 100px;
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+  .read-the-latest-from-blog .flex-cards .card {
+    width: 100%;
+    zoom: 0.8;
+  }
+}
+@media (min-width: 400px) and (max-width: 679px) {
+  .read-the-latest-from-blog .flex-cards .card {
+    width: 98%;
+  }
+}
+@media (min-width: 680px) and (max-width: 863px) {
+  .read-the-latest-from-blog .flex-cards .card {
+    width: 48%;
+  }
+}/*# sourceMappingURL=read-the-latest-from-blog.css.map */

@@ -1,0 +1,440 @@
+@import '../options/variables.scss';
+
+
+
+
+
+.toggle-block {
+  display: block;
+}
+
+.toggle-hidden {
+  display: none;
+}
+
+
+
+
+
+.tabel-section {
+  width: 90%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1000;
+  border-radius: 15px;
+  margin-top: 40px;
+  font-size: $sizeMainText;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+
+  .flex-cards {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: $colorWhite;
+    display: flex;
+    width: 90%;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .mycard {
+
+      position: relative;
+
+      border-right: 2px solid rgb(225, 224, 224);
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+      width: 24%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &>span {
+        color: $colorSubBlack;
+        font-size: $sizeIconsSmall;
+      }
+
+      .flex-left {
+        display: flex;
+        align-items: center;
+
+        .img {
+          color: $colorPrimary;
+          font-size: $sizeIconsMain;
+          margin-right: 15px;
+        }
+
+        .content-card {
+
+
+          .tile-color-sub {
+            font-size: $sizeSmallText;
+            color: $colorSubBlack;
+            margin-bottom: 6px;
+          }
+
+          .title {
+            color: $colorBlack;
+            font-size: $sizeMainText;
+          }
+        }
+      }
+
+      .sub-menue {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: absolute;
+        z-index: 999;
+        top: 90px;
+        left: 0px;
+        background-color: $colorWhite;
+        width: 270px;
+
+        p {
+          color: $colorBlack;
+          font-size: $sizeMainText;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding-left: 15px;
+          font-weight: bold;
+        }
+
+        .sub-tile {
+          color: $colorSubBlack;
+          font-size: $sizeMainText;
+          padding-left: 35px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-weight: normal;
+
+          &:hover {
+            transition: all 0.2s ease-in-out;
+            background-color: rgba(0, 0, 0, 0.024);
+          }
+        }
+
+        .sub-left {
+          color: $colorSubBlack;
+          padding-top: 7px;
+          padding-bottom: 7px;
+
+          &:hover {
+            transition: all 0.1s ease-in-out;
+            background-color: rgba(0, 0, 0, 0.047);
+          }
+        }
+
+
+      }
+
+      .sub-menue-datetime {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: absolute;
+        z-index: 999;
+        top: 90px;
+        left: 0px;
+        background-color: $colorWhite;
+        width: 270px;
+
+        .dt-card {
+          width: 100%;
+          padding: 15px;
+          z-index: 9999;
+        }
+
+        .flex {
+          display: flex;
+          justify-content: center;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-top: 1px solid $colorBlack;
+
+          p {
+            background-color: $colorPrimary;
+            color: $colorWhite;
+            font-size: $sizeSmallText;
+            padding: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: 15px;
+            border-radius: 10px;
+
+            &:hover {
+              background-color: orange;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+
+      .sub-menue-guests {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: absolute;
+        z-index: 999;
+        top: 90px;
+        left: 0px;
+        background-color: $colorWhite;
+        width: 270px;
+        padding: 10px;
+
+        .card-flex {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid rgb(213, 213, 213);
+          padding-top: 5px;
+          padding-bottom: 15px;
+          margin-top: 10px;
+
+          .left {
+            display: flex;
+
+            p {
+              color: $colorBlack;
+              font-size: $sizeMainText;
+              margin-right: 10px;
+              font-weight: bold;
+            }
+
+            span {
+              color: $colorSubBlack;
+              font-size: $sizeSmallText;
+
+            }
+          }
+
+          .flex-right {
+            display: flex;
+
+            p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30px;
+              height: 30px;
+              border-radius: 8px;
+              background-color: orange;
+              color: $colorWhite;
+              font-size: $sizeLargText;
+              font-weight: bold;
+              margin-left: 10px;
+
+              &:hover {
+                cursor: pointer;
+                background-color: $colorPrimary;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+
+
+
+        }
+
+        .btn-center {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding-top: 15px;
+          padding-bottom: 15px;
+
+          p {
+            background-color: $colorPrimary;
+            color: $colorWhite;
+            font-size: $sizeMainText;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 10px;
+
+          }
+        }
+
+
+      }
+
+
+    }
+
+    .filter {
+      width: 4%;
+      color: $colorPrimary;
+      font-size: $sizeIconsMain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+
+
+  }
+
+  .search {
+    background-color: $colorPrimary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: $colorWhite;
+    font-size: $sizeIconsMain;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+    p {
+      color: $colorWhite;
+      font-size: $sizeMainText;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .search-mobile {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $colorPrimary;
+      width: 95%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 10px;
+
+      p {
+        color: $colorWhite;
+        font-size: $sizeMainText;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+
+      span {
+        color: $colorWhite;
+        font-size: $sizeIconsSmall;
+      }
+    }
+  }
+
+
+}
+
+/* media query */
+
+@media (max-width:928px) {
+
+  .tabel-section {
+    .flex-cards {
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+@media (min-width:3px) and (max-width:299px) {
+
+
+  .tabel-section {
+    bottom: -290px;
+
+    .flex-cards {
+      flex-direction: column;
+      width: 100%;
+      zoom: 0.8;
+
+      .mycard {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(207, 205, 205);
+
+        .sub-menue-datetime,
+        .sub-menue-guests,
+        .sub-menue {
+          width: 100%;
+        }
+      }
+
+      .filter {
+        display: none;
+      }
+    }
+
+    .search {
+      display: none;
+    }
+
+    .search-mobile {
+      display: block;
+    }
+  }
+
+
+}
+
+@media (min-width:300px) and (max-width:928px) {
+  .tabel-section {
+    bottom: -290px;
+
+    .flex-cards {
+      flex-direction: column;
+      width: 100%;
+
+      .mycard {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(207, 205, 205);
+
+        .sub-menue-datetime,
+        .sub-menue-guests,
+        .sub-menue {
+          width: 100%;
+        }
+      }
+
+      .filter {
+        display: none;
+      }
+    }
+
+    .search {
+      display: none;
+    }
+
+    .search-mobile {
+      display: block;
+    }
+  }
+}
+
+@media (min-width:929px) and (max-width:981px) {
+  .tabel-section {
+    zoom: 0.8;
+  }
+
+
+}
+
+@media (min-width:982px) and (max-width:1114px) {
+  .tabel-section {
+    zoom: 0.9;
+  }
+}

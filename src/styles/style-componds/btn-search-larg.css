@@ -1,0 +1,50 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.btn-search-larg {
+  width: 10%;
+}
+.btn-search-larg .btn-search {
+  background-color: #E92026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.btn-search-larg .btn-search a {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 950px) {
+  .btn-search-larg {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-search-larg .btn-search {
+    background-color: #E92026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  .btn-search-larg .btn-search a {
+    color: white;
+    font-size: 15px !important;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}/*# sourceMappingURL=btn-search-larg.css.map */

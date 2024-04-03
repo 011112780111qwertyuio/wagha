@@ -1,0 +1,231 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-tour-poster {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+.section-tour-poster .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section-tour-poster .flex .img {
+  position: relative;
+  width: 90%;
+  min-width: 50%;
+}
+.section-tour-poster .flex .img img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+}
+.section-tour-poster .flex .img p {
+  color: white;
+  font-size: 19px;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #E92026;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section-tour-poster .flex .right {
+  padding-left: 60px;
+}
+.section-tour-poster .flex .right .top-butn {
+  background-color: rgb(238, 234, 234);
+  color: #E92026;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  width: 220px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.section-tour-poster .flex .right .larg-tile {
+  color: black;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.section-tour-poster .flex .right .subitle {
+  color: #E92026;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.section-tour-poster .flex .right .sub-content {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.section-tour-poster .flex .right .progres {
+  width: 100%;
+}
+.section-tour-poster .flex .right .progres .flex-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.section-tour-poster .flex .right .progres .flex-title .tile {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+.section-tour-poster .flex .right .progres .flex-title .num {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  font-weight: bold;
+}
+.section-tour-poster .flex .right .progres .myprog {
+  position: relative;
+  background-color: rgb(218, 213, 213);
+  width: 100%;
+  height: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.section-tour-poster .flex .right .progres .myprog > div {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 80%;
+  background-color: #E92026;
+}
+.section-tour-poster .flex .right .avatar-content {
+  width: 100%;
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+}
+.section-tour-poster .flex .right .avatar-content .left {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #E92026;
+  padding: 6px;
+}
+.section-tour-poster .flex .right .avatar-content .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.section-tour-poster .flex .right .avatar-content .right-content {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.section-tour-poster .flex .right .avatar-content .right-content .cont .title {
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.section-tour-poster .flex .right .avatar-content .right-content .cont .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.section-tour-poster .flex .right .avatar-content .right-content .btn {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.section-tour-poster .flex .right .avatar-content .right-content .btn p {
+  background-color: #E92026;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.section-tour-poster .flex .right .avatar-content .right-content .btn p:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 14px) and (max-width: 413px) {
+  .section-tour-poster .flex {
+    flex-direction: column;
+    zoom: 0.9;
+  }
+  .section-tour-poster .flex .img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .section-tour-poster .flex .right {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .section-tour-poster .flex .right .avatar-content .right-content {
+    flex-direction: column;
+  }
+  .section-tour-poster .flex .right .avatar-content .right-content .btn {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 414px) and (max-width: 466px) {
+  .section-tour-poster .flex {
+    flex-direction: column;
+    zoom: 0.8;
+  }
+  .section-tour-poster .flex .img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .section-tour-poster .flex .right {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media (min-width: 467px) and (max-width: 919px) {
+  .section-tour-poster .flex {
+    flex-direction: column;
+  }
+  .section-tour-poster .flex .img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .section-tour-poster .flex .right {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media (min-width: 920px) and (max-width: 1038px) {
+  .section-tour-poster .flex {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 1300px) {
+  .section-tour-poster .flex {
+    width: 100%;
+  }
+}/*# sourceMappingURL=section-tour-poster.css.map */

@@ -1,0 +1,143 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+/* class action */
+.active-pop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.active-pop i {
+  color: white !important;
+}
+
+/* stop class action */
+.myhead {
+  background-color: white;
+}
+.myhead .nav-bar-home {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  /* larg screen */
+  /* mobile screen */
+  /* stop mobile screen */
+  /* responsive */
+  /* stop responsive */
+  /* stop larg screen */
+}
+.myhead .nav-bar-home .larg-screen {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.myhead .nav-bar-home .larg-screen .right {
+  display: flex;
+  z-index: 1000;
+}
+.myhead .nav-bar-home .larg-screen .right .button {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  /* popMenue */
+  /* stop popMemue */
+}
+.myhead .nav-bar-home .larg-screen .right .button .flex-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myhead .nav-bar-home .larg-screen .right .button .flex-title i {
+  padding-top: 5px;
+  font-size: 17px;
+}
+.myhead .nav-bar-home .larg-screen .right .button .flex-title .name {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  padding-right: 5px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.myhead .nav-bar-home .larg-screen .right .button .fa-angle-down {
+  color: rgb(122, 122, 122);
+}
+.myhead .nav-bar-home .larg-screen .right .button .pop-menue {
+  position: absolute;
+  left: -90px;
+  width: 190px;
+  padding-left: 15px;
+  padding-top: 30px;
+  transform: scale(0);
+  transition: all 0.3s;
+  background-color: white;
+  z-index: 999;
+}
+.myhead .nav-bar-home .larg-screen .right .button .pop-menue div {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgb(186, 185, 185);
+}
+.myhead .nav-bar-home .larg-screen .right .button .pop-menue div p {
+  color: black;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.myhead .nav-bar-home .larg-screen .right .button .pop-menue div:hover .active-title {
+  color: #5191FA;
+  transition: all 0.2s;
+}
+.myhead .nav-bar-home .larg-screen .right .button .pop-menue div:hover {
+  cursor: pointer;
+}
+.myhead .nav-bar-home .larg-screen .right .button:hover .flex-title p {
+  color: #5191FA;
+}
+.myhead .nav-bar-home .larg-screen .right .button:hover .pop-menue {
+  display: block !important;
+  transform: scale(1);
+}
+.myhead .nav-bar-home .larg-screen .right .flex-title:hover {
+  cursor: pointer;
+}
+.myhead .nav-bar-home .mobile-screen {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  display: none;
+}
+.myhead .nav-bar-home .mobile-screen .button-menue i {
+  font-size: 25px;
+  color: black;
+}
+.myhead .nav-bar-home .mobile-screen .button-menue:hover {
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .myhead .nav-bar-home .larg-screen {
+    display: none;
+  }
+  .myhead .nav-bar-home .mobile-screen {
+    display: flex;
+  }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+  .myhead .nav-bar-home .larg-screen {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=style-nav-home.css.map */

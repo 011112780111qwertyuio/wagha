@@ -1,0 +1,233 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-boat-listing {
+  padding-top: 40px;
+}
+.section-boat-listing .title {
+  color: black;
+  font-size: 28px;
+}
+.section-boat-listing .sub-title {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  word-spacing: 2px;
+  margin-top: 6px;
+}
+.section-boat-listing .flex-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.section-boat-listing .flex-card .mycard {
+  width: 23%;
+  zoom: 0.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view {
+  position: relative;
+  overflow: hidden;
+  height: 230px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view:hover {
+  cursor: pointer;
+}
+.section-boat-listing .flex-card .mycard .mycard-view:hover img {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.section-boat-listing .flex-card .mycard .mycard-view img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-top {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding-right: 15px;
+  padding-top: 25px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-top span {
+  color: white;
+  font-size: 17px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-top span:hover {
+  color: #CC0033;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-top p {
+  background-color: #CC0033;
+  color: white;
+  font-size: 19px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  height: 200px;
+  width: 180px;
+  -webkit-clip-path: polygon(23% 0, 49% 0, 59% 18%, 0 18%, 0 0);
+          clip-path: polygon(23% 0, 49% 0, 59% 18%, 0 18%, 0 0);
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.099);
+  padding-left: 15px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-bottom a {
+  text-decoration: line-through;
+  color: white;
+  font-size: 15px;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-bottom p {
+  color: white;
+  font-size: 28px;
+  display: inline-block;
+}
+.section-boat-listing .flex-card .mycard .mycard-view .abso-bottom span {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card {
+  border: 1px solid rgb(184, 182, 182);
+  border-top: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .left-content {
+  width: 99%;
+  padding-top: 20px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .left-content .tile {
+  color: black;
+  font-size: 19px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .left-content .flex-views {
+  display: flex;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .left-content .flex-views p {
+  color: #E92026;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .left-content .flex-views span {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .right-content {
+  width: 1%;
+  position: relative;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-card .right-content p {
+  background-color: #E92026;
+  color: white;
+  font-size: 19px;
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 70px;
+  border: 3px solid white;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  top: -25px;
+  right: 10px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid rgb(122, 122, 122);
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo > div {
+  display: flex;
+  width: 25%;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo > div p {
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo > div span {
+  margin-right: 10px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo > div span i {
+  color: rgb(122, 122, 122);
+  font-size: 17px;
+}
+.section-boat-listing .flex-card .mycard .bottom-card .content-viewo > div:last-child {
+  justify-content: flex-end;
+}
+
+@media (min-width: 0px) and (max-width: 349px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 100%;
+    zoom: 0.7;
+  }
+  .section-boat-listing .flex-card .mycard .mycard-view {
+    height: 230px;
+  }
+}
+@media (min-width: 350px) and (max-width: 409px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 100%;
+    zoom: 0.8;
+  }
+  .section-boat-listing .flex-card .mycard .mycard-view {
+    height: 230px;
+  }
+}
+@media (min-width: 410px) and (max-width: 499px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 100%;
+  }
+  .section-boat-listing .flex-card .mycard .mycard-view {
+    height: 270px;
+  }
+}
+@media (min-width: 500px) and (max-width: 679px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 100%;
+  }
+  .section-boat-listing .flex-card .mycard .mycard-view {
+    height: 280px;
+  }
+}
+@media (min-width: 680px) and (max-width: 968px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 48%;
+  }
+}
+@media (min-width: 969px) and (max-width: 1114px) {
+  .section-boat-listing .flex-card .mycard {
+    width: 48%;
+  }
+  .section-boat-listing .flex-card .mycard .mycard-view {
+    height: 280px;
+  }
+}/*# sourceMappingURL=section-boat-listing.css.map */

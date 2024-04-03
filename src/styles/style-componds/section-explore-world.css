@@ -1,0 +1,166 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-explore-world {
+  margin-top: 40px;
+}
+.section-explore-world .flex .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-explore-world .flex .center .bt {
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  color: #E92026;
+  background-color: rgb(237, 215, 215);
+  width: 170px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.section-explore-world .flex .center .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.section-explore-world .flex .flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.section-explore-world .flex .flex-cards .card {
+  width: 31%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.section-explore-world .flex .flex-cards .card:hover {
+  cursor: pointer;
+}
+.section-explore-world .flex .flex-cards .card:hover .btn {
+  background-color: #E92026 !important;
+  transition: all 0.3s ease;
+}
+.section-explore-world .flex .flex-cards .card .view {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+.section-explore-world .flex .flex-cards .card .view img {
+  width: 100%;
+  height: 100%;
+}
+.section-explore-world .flex .flex-cards .card .view p {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #E92026;
+  color: white;
+  font-size: 19px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.section-explore-world .flex .flex-cards .card .flex-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-explore-world .flex .flex-cards .card .flex-content .left .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.section-explore-world .flex .flex-cards .card .flex-content .left .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-explore-world .flex .flex-cards .card .flex-content .right .btn {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-explore-world .flex .flex-cards .card .flex-content .right .btn span {
+  color: white;
+  font-size: 17px;
+}
+
+@media (max-width: 319px) {
+  .section-explore-world {
+    zoom: 0.8;
+  }
+  .section-explore-world .flex .flex-cards .card {
+    width: 100%;
+  }
+  .section-explore-world .flex .flex-cards .card .view {
+    height: 230px;
+  }
+}
+@media (min-width: 320px) and (max-width: 389px) {
+  .section-explore-world {
+    zoom: 0.9;
+  }
+  .section-explore-world .flex .flex-cards .card {
+    width: 100%;
+  }
+  .section-explore-world .flex .flex-cards .card .view {
+    height: 230px;
+  }
+}
+@media (min-width: 390px) and (max-width: 651px) {
+  .section-explore-world .flex .flex-cards .card {
+    width: 100%;
+  }
+  .section-explore-world .flex .flex-cards .card .view {
+    height: 300px;
+  }
+}
+@media (min-width: 652px) and (max-width: 739px) {
+  .section-explore-world .flex .flex-cards {
+    zoom: 0.9;
+  }
+  .section-explore-world .flex .flex-cards .card {
+    width: 48%;
+  }
+  .section-explore-world .flex .flex-cards .card .view {
+    height: 280px;
+  }
+}
+@media (min-width: 740px) and (max-width: 1039px) {
+  .section-explore-world .flex .flex-cards .card {
+    width: 48%;
+  }
+  .section-explore-world .flex .flex-cards .card .view {
+    height: 280px;
+  }
+}
+@media (min-width: 948px) and (max-width: 1040px) {
+  .section-explore-world .flex .flex-cards {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=section-explore-world.css.map */

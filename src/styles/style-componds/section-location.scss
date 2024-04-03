@@ -1,0 +1,11 @@
+@import '../options/variables.scss';
+.section-location{
+  padding-top:30px;
+  .title-location{
+    color:$colorBlack;
+    font-weight: bold;
+    font-size: $sizeLargText;
+    margin-top:30px;
+    margin-bottom: 30px;
+  }
+}

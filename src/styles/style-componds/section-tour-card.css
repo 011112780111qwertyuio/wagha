@@ -1,0 +1,159 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-tour-card .nav-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section-tour-card .nav-title .left {
+  display: flex;
+}
+.section-tour-card .nav-title .left p {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+}
+.section-tour-card .nav-title .left span {
+  font-weight: bold;
+  color: black;
+  margin-right: 20px;
+}
+.section-tour-card .nav-title .flex-right {
+  display: flex;
+  align-items: center;
+}
+.section-tour-card .nav-title .flex-right .flex {
+  display: flex;
+  margin-right: 20px;
+}
+.section-tour-card .nav-title .flex-right .flex p {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-right: 15px;
+}
+.section-tour-card .nav-title .flex-right .flex span {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+}
+.section-tour-card .nav-title .flex-right .menue-pop {
+  position: relative;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 190, 190);
+}
+.section-tour-card .nav-title .flex-right .menue-pop:hover {
+  cursor: pointer;
+}
+.section-tour-card .nav-title .flex-right .menue-pop .flex-tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.section-tour-card .nav-title .flex-right .menue-pop .flex-tile p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.section-tour-card .nav-title .flex-right .menue-pop .flex-tile span {
+  color: rgb(122, 122, 122);
+  font-size: 17px;
+}
+.section-tour-card .nav-title .flex-right .menue-pop .menue {
+  width: 160px;
+  background-color: white;
+  position: absolute;
+  top: 45px;
+}
+.section-tour-card .nav-title .flex-right .menue-pop .menue p {
+  color: black;
+  font-size: 19px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(201, 197, 197);
+}
+.section-tour-card .flex-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-tour-card .flex-btn {
+  display: flex;
+}
+.section-tour-card .flex-btn > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid #E92026;
+  color: #E92026;
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.section-tour-card .flex-btn > p:hover {
+  border: 2px solid #E92026;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.section-tour-card .flex-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E92026;
+  color: #E92026;
+  font-size: 19px;
+  margin-left: 20px;
+  width: 70px;
+}
+.section-tour-card .flex-btn div:hover {
+  border: 2px solid #E92026;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .section-tour-card .content {
+    width: 100%;
+  }
+  .section-tour-card .content .flex-cards {
+    zoom: 0.9;
+  }
+}
+@media (min-width: 31px) and (max-width: 350px) {
+  .section-tour-card .content {
+    width: 100%;
+  }
+  .section-tour-card .content .flex-cards {
+    width: 100%;
+    align-items: center;
+  }
+  .section-tour-card .content .flex-cards .mycard {
+    width: 100%;
+    zoom: 0.8;
+  }
+  .section-tour-card .content .flex-cards .mycard .myimg {
+    height: 250px;
+  }
+}
+@media (min-width: 3px) and (max-width: 490px) {
+  .section-tour-card .nav-title {
+    zoom: 0.8;
+  }
+  .section-tour-card .nav-title .left {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-tour-card .nav-title .flex-right .flex {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=section-tour-card.css.map */

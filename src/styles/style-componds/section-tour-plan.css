@@ -1,0 +1,79 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.open-card {
+  height: auto !important;
+  overflow: visible !important;
+  border: 2px solid rgb(212, 211, 211);
+  padding-bottom: 30px;
+  padding-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.open-card .flex-tile {
+  background-color: white !important;
+  transition: all 0.3s ease-in-out;
+}
+.open-card .flex-tile p {
+  color: black !important;
+}
+.open-card .flex-tile span {
+  color: black !important;
+  transform: rotate(3.142rad);
+  transition: all 0.3s ease-in-out;
+}
+
+.section-tour-plan {
+  padding-top: 30px;
+}
+.section-tour-plan .title-plan {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.section-tour-plan .flex-items {
+  padding-top: 35px;
+}
+.section-tour-plan .flex-items .mycard {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 70px;
+  margin-bottom: 15px;
+}
+.section-tour-plan .flex-items .mycard .flex-tile {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #E92026;
+}
+.section-tour-plan .flex-items .mycard .flex-tile:hover {
+  cursor: pointer;
+}
+.section-tour-plan .flex-items .mycard .flex-tile p {
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+.section-tour-plan .flex-items .mycard .flex-tile span {
+  color: white;
+  font-size: 25px;
+}
+.section-tour-plan .flex-items .mycard .mycontent {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.section-tour-plan .flex-items .mycard .mycontent p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  word-spacing: 2px;
+  line-height: 33px;
+}/*# sourceMappingURL=section-tour-plan.css.map */

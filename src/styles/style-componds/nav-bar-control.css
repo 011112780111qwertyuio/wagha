@@ -1,0 +1,124 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.hide {
+  display: none !important;
+}
+
+.nav-control {
+  background-color: #E92026;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-control .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-control .flex .flex-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  margin-right: 15px;
+}
+.nav-control .flex .flex-left .face,
+.nav-control .flex .flex-left .in,
+.nav-control .flex .flex-left .g {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.nav-control .flex .flex-right {
+  display: flex;
+}
+.nav-control .flex .flex-right .btn {
+  margin-left: 30px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.nav-control .flex .flex-right .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.nav-control .flex .flex-right .btn a i {
+  padding-left: 5px;
+  color: white;
+  font-size: 17px;
+}
+.nav-control .flex .flex-right .btn .sub-menue-usd {
+  position: absolute;
+  background-color: #E92026;
+  left: 0px;
+  top: 38px;
+  z-index: 1200;
+  width: 90px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-control .flex .flex-right .btn .sub-menue-usd div {
+  width: 100%;
+  color: white;
+  font-size: 19px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40px;
+}
+.nav-control .flex .flex-right .btn .sub-menue-usd div:hover {
+  cursor: pointer;
+}
+.nav-control .flex .flex-right .btn .sub-menue-lang {
+  position: absolute;
+  background-color: #E92026;
+  top: 38px;
+  left: -100px;
+  width: 220px;
+  z-index: 1200;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav-control .flex .flex-right .btn .sub-menue-lang ul li {
+  font-size: 19px;
+  padding: 10px;
+}
+.nav-control .flex .flex-right .btn .sub-menue-lang ul li a {
+  display: inline-block;
+  width: 100%;
+  font-size: 19px;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 40px;
+}
+.nav-control .flex .flex-right .bt-img > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.nav-control .flex .flex-right .bt-img > a img {
+  display: inline-block;
+  height: 14px;
+  width: 23px;
+  margin-right: 5px;
+}
+
+@media (max-width: 900px) {
+  .nav-control {
+    display: none;
+  }
+}/*# sourceMappingURL=nav-bar-control.css.map */

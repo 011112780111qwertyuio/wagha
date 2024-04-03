@@ -1,0 +1,162 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+/* class  */
+.close-pop {
+  height: 50px;
+}
+
+.out-pop {
+  min-height: 50px;
+}
+
+.rotate {
+  transform: rotate(-0.25turn);
+}
+
+/* stop class */
+.modal-nav-home .pop {
+  background-color: rgba(0, 0, 0, 0.413);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2000;
+}
+.modal-nav-home .absolute {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: white;
+  overflow-y: auto;
+  scrollbar-color: black;
+  scrollbar-width: thin;
+  z-index: 2000;
+}
+.modal-nav-home .absolute .close {
+  background-color: #E92026;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-nav-home .absolute .close i {
+  color: white;
+  font-size: 25px;
+}
+.modal-nav-home .absolute .close i:hover {
+  cursor: pointer;
+}
+.modal-nav-home .absolute .buttons .list-tile-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
+.modal-nav-home .absolute .buttons .list-tile-top a {
+  color: black;
+  font-size: 19px;
+  padding-left: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.modal-nav-home .absolute .buttons .list-tile {
+  border-bottom: 1px solid rgb(168, 168, 168);
+  padding: 15px;
+  overflow: hidden;
+}
+.modal-nav-home .absolute .buttons .list-tile .title {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-nav-home .absolute .buttons .list-tile .title a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.modal-nav-home .absolute .buttons .list-tile .title a i {
+  font-size: 17px;
+  color: black;
+}
+.modal-nav-home .absolute .buttons .list-tile .title a img {
+  width: 22px;
+  height: 16px;
+  margin-right: 5px;
+  padding-top: 1px;
+}
+.modal-nav-home .absolute .buttons .list-tile .pop-menue {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.modal-nav-home .absolute .buttons .list-tile .pop-menue a {
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  text-transform: capitalize;
+}
+.modal-nav-home .absolute .buttons .list-tile .pop-menue a i {
+  font-size: 17px;
+  color: black;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(168, 168, 168);
+  overflow: hidden;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .flex p {
+  color: black;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .flex i {
+  color: black;
+  font-size: 17px;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .pop-menue {
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .pop-menue p {
+  color: black;
+  font-size: 19px;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn .list .pop-menue:hover {
+  border-bottom: 1px solid black;
+  transition: 0.3s all;
+}
+.modal-nav-home .absolute .buttons .list-tiel-btn:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 347px) {
+  .modal-nav-home {
+    zoom: 0.9;
+  }
+  .modal-nav-home .absolute {
+    width: 250px;
+  }
+}
+@media (min-width: 348px) and (max-width: 400px) {
+  .modal-nav-home .absolute {
+    width: 260px;
+  }
+}/*# sourceMappingURL=style-modal-nav.css.map */

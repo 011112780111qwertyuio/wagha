@@ -1,0 +1,268 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.boking-form .mycard-sumation {
+  background-color: #f2f4f3;
+  width: 100%;
+  min-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+}
+.boking-form .mycard-sumation .title {
+  font-size: 28px;
+  font-weight: bold;
+  border-left: 2px solid #E92026;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.boking-form .mycard-sumation .flex-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(149, 145, 145);
+  border-bottom: 1px solid rgb(149, 145, 145);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boking-form .mycard-sumation .flex-date label {
+  color: black;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .flex-date div {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: white;
+  border: 2px solid rgb(191, 190, 190);
+}
+.boking-form .mycard-sumation .flex-date div:hover {
+  cursor: pointer;
+}
+.boking-form .mycard-sumation .flex-date div span {
+  font-size: 17px;
+  color: #E92026;
+  margin-right: 5px;
+}
+.boking-form .mycard-sumation .flex-date div p {
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  margin-right: 10px;
+}
+.boking-form .mycard-sumation .flex-dt-time {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(149, 145, 145);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.boking-form .mycard-sumation .flex-dt-time label {
+  color: black;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .flex-dt-time .flex-radio {
+  display: flex;
+}
+.boking-form .mycard-sumation .flex-dt-time .flex-radio div {
+  margin-left: 15px;
+}
+.boking-form .mycard-sumation .flex-dt-time .flex-radio div label {
+  color: black;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.boking-form .mycard-sumation .flex-dt-time .flex-radio div input[type=radio] {
+  width: 15px;
+  height: 15px;
+}
+.boking-form .mycard-sumation .title-select {
+  color: black;
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.boking-form .mycard-sumation .flex-children {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.boking-form .mycard-sumation .flex-children p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .flex-children select {
+  width: 110px;
+  min-width: 110px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: 2px solid rgb(208, 206, 206);
+  outline: none;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+.boking-form .mycard-sumation .spce-between {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(149, 145, 145);
+}
+.boking-form .mycard-sumation .spce-between::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 75%;
+  background-color: rgb(149, 145, 145);
+  right: 0px;
+  bottom: 0px;
+}
+.boking-form .mycard-sumation .spce-between p {
+  color: black;
+  font-size: 19px;
+  margin-left: 10px;
+}
+.boking-form .mycard-sumation .spce-between div input[type=checkbox] {
+  color: red;
+}
+.boking-form .mycard-sumation .spce-between div label {
+  color: black;
+  margin-left: 5px;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .spce-between-column {
+  padding-top: 6px;
+}
+.boking-form .mycard-sumation .spce-between-column > p {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .spce-between-column > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.boking-form .mycard-sumation .spce-between-column > div div label {
+  color: black;
+  margin-left: 5px;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .spce-between-column > div div p {
+  margin-bottom: 8px;
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  text-align: right;
+}
+.boking-form .mycard-sumation .spce-between-column > div div p span {
+  color: black;
+  padding-left: 8px;
+  font-size: 15px;
+}
+.boking-form .mycard-sumation .button {
+  border-top: 1px solid rgb(149, 145, 145);
+  padding-top: 15px;
+  width: 100%;
+}
+.boking-form .mycard-sumation .button .title-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boking-form .mycard-sumation .button .title-flex label {
+  font-size: 28px;
+  color: rgb(122, 122, 122);
+}
+.boking-form .mycard-sumation .button .title-flex p {
+  font-size: 28px;
+  color: #E92026;
+}
+.boking-form .mycard-sumation .button .btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.boking-form .mycard-sumation .button .btn-center:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.boking-form .mycard-sumation .button .btn-center div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #E92026;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
+}
+.boking-form .mycard-sumation .button .btn-center div p {
+  margin-left: 10px;
+}
+.boking-form .mycard-sumation .button .btn-center div span {
+  font-size: 17px;
+}
+.boking-form .mycard-information {
+  margin-top: 30px;
+  border: 1px solid rgb(232, 230, 230);
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.boking-form .mycard-information .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.boking-form .mycard-information .flex-information {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.boking-form .mycard-information .flex-information span {
+  color: #E92026;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.boking-form .mycard-information .flex-information div p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.boking-form .mycard-information .flex-information div label {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media (min-width: 3px) and (max-width: 325px) {
+  .boking-form {
+    zoom: 0.8;
+  }
+}
+@media (min-width: 326px) and (max-width: 358px) {
+  .boking-form {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=booking-form.css.map */

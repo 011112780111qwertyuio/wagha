@@ -1,0 +1,139 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.bestseller-listing {
+  margin-top: 35px;
+}
+.bestseller-listing .title {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.bestseller-listing .title-sub {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.bestseller-listing .flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bestseller-listing .flex-cards .mycard {
+  width: 32%;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 30px;
+}
+.bestseller-listing .flex-cards .mycard .view {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+.bestseller-listing .flex-cards .mycard .view:hover {
+  cursor: pointer;
+}
+.bestseller-listing .flex-cards .mycard .view:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.bestseller-listing .flex-cards .mycard .view img {
+  width: 100%;
+  height: 100%;
+}
+.bestseller-listing .flex-cards .mycard .view span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(122, 122, 122);
+  font-size: 17px;
+  color: white;
+}
+.bestseller-listing .flex-cards .mycard .view span:hover {
+  color: #E92026;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.bestseller-listing .flex-cards .mycard .view .flex-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  color: #E92026;
+  font-size: 17px;
+}
+.bestseller-listing .flex-cards .mycard .view .flex-icons i {
+  margin-right: 4px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .tile-content {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .row {
+  display: flex;
+  padding-top: 10px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .row span {
+  color: #E92026;
+  font-size: 19px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .row label {
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .row p {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .row .number {
+  word-break: break-all;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .flex-salre {
+  padding-top: 8px;
+  display: flex;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .flex-salre span {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.bestseller-listing .flex-cards .mycard .flex-content .flex-salre p {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-break: break-all;
+}
+
+@media (min-width: 47px) and (max-width: 346px) {
+  .bestseller-listing .flex-cards {
+    zoom: 0.8;
+  }
+  .bestseller-listing .flex-cards .mycard {
+    width: 100%;
+  }
+}
+@media (min-width: 347px) and (max-width: 681px) {
+  .bestseller-listing .flex-cards .mycard {
+    width: 100%;
+  }
+}
+@media (min-width: 682px) and (max-width: 930px) {
+  .bestseller-listing .flex-cards .mycard {
+    width: 48%;
+  }
+}/*# sourceMappingURL=bestseller-listing.css.map */

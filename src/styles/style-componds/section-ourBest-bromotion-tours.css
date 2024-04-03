@@ -1,0 +1,186 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-ourbest-promotion-tours {
+  background-color: #F5F5F5;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+.section-ourbest-promotion-tours .title {
+  font-size: 28px;
+  color: black;
+}
+.section-ourbest-promotion-tours .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-top: 5px;
+}
+.section-ourbest-promotion-tours .flex-cards {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section-ourbest-promotion-tours .flex-cards .card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+  width: 31%;
+  border-radius: 10px;
+}
+.section-ourbest-promotion-tours .flex-cards .card:hover .view .view-action {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.section-ourbest-promotion-tours .flex-cards .card:hover .view .view-action > p {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.section-ourbest-promotion-tours .flex-cards .card:hover .view .view-action > p:hover {
+  cursor: pointer;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .heart {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  font-size: 17px;
+  bottom: 20px;
+  right: 20px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .heart:hover {
+  cursor: pointer;
+  color: #CC0033;
+  transition: all 0.3s ease-in-out;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .tecit {
+  background-color: #CC0033;
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  padding-top: 23px;
+  position: absolute;
+  top: -5px;
+  right: -59px;
+  transform: rotate(45deg);
+  z-index: 999;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .add-card-tikei {
+  background-color: #CC0033;
+  width: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  z-index: 999;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .view-action {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(10, 9, 9, 0.283);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.section-ourbest-promotion-tours .flex-cards .card .view .view-action p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  background-color: #E92026;
+  color: white;
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transform: scale(0);
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card {
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content {
+  display: flex;
+  justify-content: space-between;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content .left {
+  width: 60%;
+  padding-right: 10px;
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+  line-height: 20px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content .left .sub-text {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-top: 10px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content .right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 10px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content .right > a {
+  text-decoration: line-through;
+  color: #CC0033;
+  font-size: 15px;
+}
+.section-ourbest-promotion-tours .flex-cards .card .content-card .flex-content .right > p {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+@media (min-width: 280px) and (max-width: 349px) {
+  .section-ourbest-promotion-tours .flex-cards .card {
+    width: 100%;
+    zoom: 0.9;
+  }
+  .section-ourbest-promotion-tours .flex-cards .card .view {
+    height: 210px;
+  }
+}
+@media (min-width: 350px) and (max-width: 679px) {
+  .section-ourbest-promotion-tours .flex-cards .card {
+    width: 100%;
+  }
+  .section-ourbest-promotion-tours .flex-cards .card .view {
+    height: 250px;
+  }
+}
+@media (min-width: 680px) and (max-width: 969px) {
+  .section-ourbest-promotion-tours .flex-cards .card {
+    width: 48%;
+  }
+}/*# sourceMappingURL=section-ourBest-bromotion-tours.css.map */

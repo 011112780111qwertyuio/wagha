@@ -1,0 +1,98 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.login-admin .form {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 500px;
+  max-width: 100%;
+  padding: 20px;
+}
+.login-admin .form .content-form .logo {
+  display: flex;
+  justify-content: center;
+}
+.login-admin .form .content-form form {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+.login-admin .form .content-form form .title {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.login-admin .form .content-form form input {
+  width: 100%;
+  outline: none;
+  padding: 13px;
+  font-size: 19px;
+  border: 1px solid rgb(210, 206, 206);
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.login-admin .form .content-form form .btn-in {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background-color: #E92026;
+  border-radius: 5px;
+  font-size: 19px;
+}
+.login-admin .form .content-form form .btn-in:hover {
+  cursor: pointer;
+}
+.login-admin .form .content-form form .or {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(197, 194, 194);
+  margin-top: 30px;
+  position: relative;
+}
+.login-admin .form .content-form form .or p {
+  color: black;
+  font-size: 19px;
+  position: absolute;
+  left: 50%;
+  top: -12px;
+  transform: translate(-50%);
+  background-color: white;
+  width: 45px;
+  text-align: center;
+}
+.login-admin .form .content-form form .div-bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.login-admin .form .content-form form .div-bottom .create {
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #46B62D;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-admin .form .content-form form .div-bottom .create:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=login-admin.css.map */

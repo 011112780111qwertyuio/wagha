@@ -1,0 +1,68 @@
+@import '../options/variables.scss';
+
+.magazines {
+  .flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    .mycard {
+      width: 32%;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+@media (min-width:7px) and (max-width:316px) {
+  .magazines {
+    .flex-cards {
+      .mycard {
+        width: 100%;
+        zoom: 0.8;
+      }
+    }
+  }
+}
+
+@media (min-width:317px) and (max-width:375px) {
+  .magazines {
+    .flex-cards {
+      .mycard {
+        width: 100%;
+        zoom: 0.9;
+      }
+    }
+  }
+}
+
+@media (min-width:376px) and (max-width:678px) {
+  .magazines {
+    .flex-cards {
+      .mycard {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width:679px) and (max-width:989px) {
+  .magazines {
+    .flex-cards {
+      .mycard {
+        width: 49%;
+        zoom: 0.9;
+      }
+    }
+  }
+}
+
+@media (min-width:990px) and (max-width:1076px) {
+  .magazines {
+    .flex-cards {
+      .mycard {
+        width: 49%;
+      }
+    }
+  }
+}

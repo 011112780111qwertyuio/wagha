@@ -1,0 +1,94 @@
+@import '../options/variables.scss';
+
+.section-minute-deals {
+  margin-top: 30px;
+  border: 1px solid rgb(232, 230, 230);
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+  .title-add {
+    color: $colorBlack;
+    font-size: $sizeLargText;
+    font-weight: bold;
+
+  }
+
+  .flex-add {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(159, 156, 156);
+    padding-bottom: 25px;
+
+    &:last-child {
+      border-bottom: none;
+
+    }
+
+    .avtar {
+      width: 100px;
+      min-width: 100px;
+      height: 70px;
+      border-radius: 10px;
+      overflow: hidden;
+
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .flex-cont {
+      .icons {
+        color: orange;
+
+        i {
+          margin-right: 5px;
+        }
+      }
+
+      padding-left:10px;
+
+      p {
+        margin-top: 10px;
+      }
+
+      .mytile {
+        color: $colorBlack;
+        font-size: $sizeMainText;
+        font-weight: bold;
+      }
+
+      .sub-tile {
+        color: $colorSubBlack;
+        font-size: $sizeSmallText;
+
+        label {
+          font-weight: bold;
+          color: $colorPrimary;
+          font-size: $sizeSmallText;
+          margin-left: 4px;
+        }
+      }
+    }
+
+
+  }
+
+
+}
+
+@media(min-width:3px) and (max-width:299px) {
+  .section-minute-deals {
+    zoom: 0.8;
+  }
+}
+
+@media(min-width:300px) and (max-width:358px) {
+  .section-minute-deals {
+    zoom: 0.9;
+  }
+}

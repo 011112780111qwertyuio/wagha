@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+@mixin button($rr){
+  color:red;
+  background-color: $rr;
+}
+

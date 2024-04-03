@@ -1,0 +1,64 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.slider-images {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.slider-images .flex-cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.slider-images .flex-cards::-webkit-scrollbar {
+  display: none;
+  height: 0px;
+}
+.slider-images .flex-cards .mycard {
+  width: 350px;
+  min-width: 350px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.slider-images .flex-cards .mycard img {
+  width: 100%;
+  height: 100%;
+}
+.slider-images .flex-btn {
+  height: 80%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.slider-images .flex-btn > div {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 25px;
+  color: black;
+}
+.slider-images .flex-btn > div:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: red;
+}/*# sourceMappingURL=slider-images.css.map */

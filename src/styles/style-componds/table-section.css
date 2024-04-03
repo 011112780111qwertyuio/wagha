@@ -1,0 +1,346 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.toggle-block {
+  display: block;
+}
+
+.toggle-hidden {
+  display: none;
+}
+
+.tabel-section {
+  width: 90%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1000;
+  border-radius: 15px;
+  margin-top: 40px;
+  font-size: 19px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
+.tabel-section .flex-cards {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tabel-section .flex-cards .mycard {
+  position: relative;
+  border-right: 2px solid rgb(225, 224, 224);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabel-section .flex-cards .mycard:hover {
+  cursor: pointer;
+}
+.tabel-section .flex-cards .mycard > span {
+  color: rgb(122, 122, 122);
+  font-size: 17px;
+}
+.tabel-section .flex-cards .mycard .flex-left {
+  display: flex;
+  align-items: center;
+}
+.tabel-section .flex-cards .mycard .flex-left .img {
+  color: #E92026;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.tabel-section .flex-cards .mycard .flex-left .content-card .tile-color-sub {
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 6px;
+}
+.tabel-section .flex-cards .mycard .flex-left .content-card .title {
+  color: black;
+  font-size: 19px;
+}
+.tabel-section .flex-cards .mycard .sub-menue {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 0px;
+  background-color: white;
+  width: 270px;
+}
+.tabel-section .flex-cards .mycard .sub-menue p {
+  color: black;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.tabel-section .flex-cards .mycard .sub-menue .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+.tabel-section .flex-cards .mycard .sub-menue .sub-tile:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.024);
+}
+.tabel-section .flex-cards .mycard .sub-menue .sub-left {
+  color: rgb(122, 122, 122);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.tabel-section .flex-cards .mycard .sub-menue .sub-left:hover {
+  transition: all 0.1s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.047);
+}
+.tabel-section .flex-cards .mycard .sub-menue-datetime {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 0px;
+  background-color: white;
+  width: 270px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-datetime .dt-card {
+  width: 100%;
+  padding: 15px;
+  z-index: 9999;
+}
+.tabel-section .flex-cards .mycard .sub-menue-datetime .flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+}
+.tabel-section .flex-cards .mycard .sub-menue-datetime .flex p {
+  background-color: #E92026;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-datetime .flex p:hover {
+  background-color: orange;
+  transition: all 0.3s ease-in-out;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 0px;
+  background-color: white;
+  width: 270px;
+  padding: 10px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .left {
+  display: flex;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .left p {
+  color: black;
+  font-size: 19px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .left span {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .flex-right {
+  display: flex;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .flex-right p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .card-flex .flex-right p:hover {
+  cursor: pointer;
+  background-color: #E92026;
+  transition: all 0.3s ease-in-out;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .btn-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tabel-section .flex-cards .mycard .sub-menue-guests .btn-center p {
+  background-color: #E92026;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+}
+.tabel-section .flex-cards .filter {
+  width: 4%;
+  color: #E92026;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabel-section .search {
+  background-color: #E92026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  color: white;
+  font-size: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.tabel-section .search p {
+  color: white;
+  font-size: 19px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.tabel-section .search-mobile {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+.tabel-section .search-mobile .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E92026;
+  width: 95%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.tabel-section .search-mobile .flex p {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.tabel-section .search-mobile .flex span {
+  color: white;
+  font-size: 17px;
+}
+
+/* media query */
+@media (max-width: 928px) {
+  .tabel-section .flex-cards {
+    border-radius: 10px;
+  }
+}
+@media (min-width: 3px) and (max-width: 299px) {
+  .tabel-section {
+    bottom: -290px;
+  }
+  .tabel-section .flex-cards {
+    flex-direction: column;
+    width: 100%;
+    zoom: 0.8;
+  }
+  .tabel-section .flex-cards .mycard {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(207, 205, 205);
+  }
+  .tabel-section .flex-cards .mycard .sub-menue-datetime,
+  .tabel-section .flex-cards .mycard .sub-menue-guests,
+  .tabel-section .flex-cards .mycard .sub-menue {
+    width: 100%;
+  }
+  .tabel-section .flex-cards .filter {
+    display: none;
+  }
+  .tabel-section .search {
+    display: none;
+  }
+  .tabel-section .search-mobile {
+    display: block;
+  }
+}
+@media (min-width: 300px) and (max-width: 928px) {
+  .tabel-section {
+    bottom: -290px;
+  }
+  .tabel-section .flex-cards {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tabel-section .flex-cards .mycard {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(207, 205, 205);
+  }
+  .tabel-section .flex-cards .mycard .sub-menue-datetime,
+  .tabel-section .flex-cards .mycard .sub-menue-guests,
+  .tabel-section .flex-cards .mycard .sub-menue {
+    width: 100%;
+  }
+  .tabel-section .flex-cards .filter {
+    display: none;
+  }
+  .tabel-section .search {
+    display: none;
+  }
+  .tabel-section .search-mobile {
+    display: block;
+  }
+}
+@media (min-width: 929px) and (max-width: 981px) {
+  .tabel-section {
+    zoom: 0.8;
+  }
+}
+@media (min-width: 982px) and (max-width: 1114px) {
+  .tabel-section {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=table-section.css.map */

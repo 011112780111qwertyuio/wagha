@@ -1,0 +1,144 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-send-comment {
+  width: 100%;
+}
+.section-send-comment .title {
+  display: flex;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.section-send-comment .title span {
+  border-bottom: 3px solid #E92026;
+  padding-bottom: 10px;
+}
+.section-send-comment .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-top: 20px;
+}
+.section-send-comment .flex-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.section-send-comment .flex-cards .le {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+.section-send-comment .flex-cards .le > div {
+  margin-right: 40px;
+}
+.section-send-comment .flex-cards .le > div p {
+  color: black;
+  font-size: 19px;
+  padding: 15px;
+  padding-right: 0px;
+}
+.section-send-comment .flex-cards .le > div span {
+  color: orange;
+  padding: 5px;
+  font-size: 17px;
+}
+.section-send-comment .flex-cards .ri {
+  width: 200px;
+}
+.section-send-comment .flex-cards .ri > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F3F8F6;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+}
+.section-send-comment .flex-cards .ri > div p {
+  color: #E92026;
+  font-weight: bold;
+  font-size: 28px;
+}
+.section-send-comment .flex-cards .ri > div span {
+  color: black;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.section-send-comment .from-input {
+  margin-top: 50px;
+  width: 100%;
+}
+.section-send-comment .from-input .flex-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.section-send-comment .from-input .flex-input input {
+  width: 49%;
+  font-size: 19px;
+  background-color: #F3F8F6;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 5px;
+}
+.section-send-comment .from-input .area {
+  width: 100%;
+}
+.section-send-comment .from-input .area textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 190px;
+  min-height: 100px;
+  max-width: 100px;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  background-color: #F3F8F6;
+  border-radius: 5px;
+  color: black;
+  font-size: 28px;
+  padding: 20px;
+}
+.section-send-comment .from-input .flex-checked {
+  color: black;
+  font-size: 19px;
+  margin-top: 50px;
+}
+.section-send-comment .from-input .flex-checked label {
+  margin-left: 10px;
+}
+.section-send-comment .from-input .btn {
+  background-color: #E92026;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.section-send-comment .from-input .btn:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 30px) and (max-width: 329px) {
+  .section-send-comment {
+    zoom: 0.8;
+  }
+}
+@media (min-width: 330px) and (max-width: 400px) {
+  .section-send-comment {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=section-send-comment.css.map */

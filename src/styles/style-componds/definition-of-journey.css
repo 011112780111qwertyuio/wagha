@@ -1,0 +1,136 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.definition-of-journey {
+  padding-top: 100px;
+}
+.definition-of-journey .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.definition-of-journey .flex .left {
+  width: 50%;
+}
+.definition-of-journey .flex .left .img {
+  width: 95%;
+  height: 450px;
+  border: 10px solid white;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.definition-of-journey .flex .left .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.definition-of-journey .flex .right {
+  width: 47%;
+}
+.definition-of-journey .flex .right .title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+}
+.definition-of-journey .flex .right .title::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 50px;
+  height: 5px;
+  background-color: #E92026;
+}
+.definition-of-journey .flex .right .sub-prg {
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+  line-height: 30px;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+.definition-of-journey .flex .right .table {
+  margin-top: 40px;
+  width: 100%;
+}
+.definition-of-journey .flex .right .table .flex-table {
+  border-bottom: 1px solid rgb(164, 163, 163);
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.definition-of-journey .flex .right .table .flex-table .left-table {
+  width: 30%;
+  min-width: 200px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.definition-of-journey .flex .right .table .flex-table .right-table {
+  width: 60%;
+  font-size: 19px;
+  padding-left: 10px;
+}
+.definition-of-journey .flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+@media (min-width: 48px) and (max-width: 381px) {
+  .definition-of-journey .flex {
+    flex-direction: column;
+    zoom: 0.8;
+  }
+  .definition-of-journey .flex .left {
+    width: 100%;
+  }
+  .definition-of-journey .flex .left .img {
+    width: 100%;
+    height: 390px;
+  }
+  .definition-of-journey .flex .right {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 382px) and (max-width: 497px) {
+  .definition-of-journey .flex {
+    flex-direction: column;
+    zoom: 0.9;
+  }
+  .definition-of-journey .flex .left {
+    width: 100%;
+  }
+  .definition-of-journey .flex .left .img {
+    width: 100%;
+  }
+  .definition-of-journey .flex .right {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 498px) and (max-width: 745px) {
+  .definition-of-journey .flex {
+    flex-direction: column;
+  }
+  .definition-of-journey .flex .left {
+    width: 100%;
+  }
+  .definition-of-journey .flex .left .img {
+    width: 100%;
+  }
+  .definition-of-journey .flex .right {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 746px) and (max-width: 818px) {
+  .definition-of-journey {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=definition-of-journey.css.map */

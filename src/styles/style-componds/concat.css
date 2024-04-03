@@ -1,0 +1,294 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.concat {
+  background-color: white;
+  /* start section alboum */
+  /* stop section alboum */
+  /* start sectio content */
+  /* stop section content */
+  /* send message */
+  /* stop send message */
+  /* start location section */
+  /* stop sectio location */
+}
+.concat .section-albom {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-image: url("../../../public/assets/images/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concat .section-albom::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.649);
+  z-index: 1;
+}
+.concat .section-albom .flex-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.concat .section-albom .flex-center > p {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+.concat .section-albom .flex-center .flex {
+  display: flex;
+  color: white;
+  font-size: 19px;
+  justify-content: center;
+  padding-top: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.concat .section-albom .flex-center .flex > p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #D5D6D5;
+}
+.concat .section-cotnent {
+  padding-top: 40px;
+}
+.concat .section-cotnent .btn {
+  background-color: #e4eae1;
+  width: 130px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #E92026;
+  font-size: 19px;
+  border-radius: 5px;
+  color: #E92026;
+  text-transform: capitalize;
+}
+.concat .section-cotnent .tile {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.concat .section-cotnent .flex-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.concat .section-cotnent .flex-cards .mycard {
+  background-color: #F3F8F6;
+  width: 32%;
+  min-width: 32%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.concat .section-cotnent .flex-cards .mycard span {
+  color: #E92026;
+  font-size: 35px;
+}
+.concat .section-cotnent .flex-cards .mycard .title {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.concat .section-cotnent .flex-cards .mycard .sub-title {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-top: 10px;
+}
+.concat .section-send {
+  padding-top: 130px;
+}
+.concat .section-send .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.concat .section-send .flex .left {
+  width: 50%;
+  padding-right: 40px;
+}
+.concat .section-send .flex .left .btn {
+  color: #E92026;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: #EBF4E7;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+.concat .section-send .flex .left .tile {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.concat .section-send .flex .left .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+}
+.concat .section-send .flex .left .flex-icons {
+  display: flex;
+  margin-top: 40px;
+}
+.concat .section-send .flex .left .flex-icons span {
+  background-color: #e4eae1;
+  min-width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  font-size: 17px;
+}
+.concat .section-send .flex .left .flex-icons span:hover {
+  background-color: #E92026;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+.concat .section-send .flex .right {
+  width: 50%;
+}
+.concat .section-send .flex .right .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  zoom: 0.9;
+}
+.concat .section-send .flex .right .inputs div {
+  width: 49%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.concat .section-send .flex .right .inputs div input[type=text] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+  font-size: 19px;
+  background-color: #F3F8F6;
+  margin-bottom: 15px;
+}
+.concat .section-send .flex .right .area {
+  width: 100%;
+  min-width: 100%;
+  padding-top: 0px;
+}
+.concat .section-send .flex .right .area textarea {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #F3F8F6;
+  margin-top: 0px;
+  padding: 20px;
+  font-size: 19px;
+  color: black;
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+}
+.concat .section-send .flex .right .btn-send {
+  color: white;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E92026;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.concat .section-send .flex .right .btn-send:hover {
+  cursor: pointer;
+}
+.concat .section-location {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  z-index: 99;
+  margin-bottom: 330px;
+}
+.concat .section-location iframe {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+/* start sectio concat */
+@media (max-width: 735px) {
+  .concat .section-cotnent .flex-cards .mycard {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+/* stop section concat */
+/* start section send */
+@media (max-width: 781px) {
+  .concat .section-send .flex {
+    flex-direction: column;
+  }
+  .concat .section-send .flex .left {
+    width: 100%;
+  }
+  .concat .section-send .flex .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .concat .section-send .flex .right .inputs div {
+    width: 100%;
+  }
+}
+@media (min-width: 65px) and (max-width: 365px) {
+  .concat .section-send .flex .right {
+    zoom: 0.9;
+  }
+}
+/* stop section send */
+/* start section location */
+@media (min-width: 647px) and (max-width: 813px) {
+  .concat .section-location {
+    zoom: 0.9;
+  }
+}
+/* stop section location *//*# sourceMappingURL=concat.css.map */

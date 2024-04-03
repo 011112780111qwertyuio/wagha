@@ -1,0 +1,91 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-comments {
+  margin-bottom: 50px;
+  padding-top: 90px;
+}
+.section-comments .flex-tile {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.section-comments .flex-tile p {
+  line-height: 47px;
+}
+.section-comments .flex-tile p span {
+  border-bottom: 3px solid #E92026;
+  padding-bottom: 8px;
+}
+.section-comments .flex-cards {
+  border-bottom: 1px solid rgb(150, 148, 148);
+  padding-bottom: 20px;
+  display: flex;
+  padding-top: 40px;
+}
+.section-comments .flex-cards .leftt .img {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.section-comments .flex-cards .leftt .img img {
+  width: 100%;
+  height: 100%;
+}
+.section-comments .flex-cards .right {
+  width: 100%;
+  padding-left: 20px;
+}
+.section-comments .flex-cards .right .name {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+.section-comments .flex-cards .right .date {
+  color: rgb(122, 122, 122);
+  font-size: 19px;
+  margin-top: 10px;
+}
+.section-comments .flex-cards .right .flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.section-comments .flex-cards .right .flex > div {
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+.section-comments .flex-cards .right .flex > div > :last-child {
+  padding-right: 0px;
+}
+.section-comments .flex-cards .right .flex > div p {
+  color: black;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.section-comments .flex-cards .right .flex > div span {
+  color: orange;
+  font-size: 17px;
+}
+.section-comments .flex-cards .right .comment-user {
+  padding-top: 10px;
+  width: 100%;
+}
+.section-comments .flex-cards .right .comment-user p {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  line-height: 30px;
+  word-spacing: 5px;
+}
+
+@media (min-width: 3px) and (max-width: 586px) {
+  .section-comments {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=section-comment.css.map */

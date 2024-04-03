@@ -1,0 +1,53 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-home {
+  min-height: 450px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 70px;
+}
+.section-home .section-image {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.section-home .section-image img {
+  width: 100%;
+  height: 100%;
+}
+.section-home .section-image::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.365);
+}
+.section-home .content-section {
+  padding-top: 100px;
+}
+.section-home .content-section .title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.section-home .content-section .sub-title {
+  font-size: 19px;
+  color: white;
+}
+
+@media (max-width: 928px) {
+  .section-home {
+    margin-bottom: 300px;
+  }
+}/*# sourceMappingURL=section-home.css.map */

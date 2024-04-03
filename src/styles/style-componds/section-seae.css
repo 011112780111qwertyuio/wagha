@@ -1,0 +1,204 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-seae {
+  padding-top: 40px;
+}
+.section-seae .title {
+  color: black;
+  font-size: 28px;
+}
+.section-seae .sub-title {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  word-spacing: 2px;
+  margin-top: 6px;
+}
+.section-seae .flex-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.section-seae .flex-card .mycard {
+  width: 23%;
+  zoom: 0.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-seae .flex-card .mycard .mycard-view {
+  position: relative;
+  overflow: hidden;
+  height: 230px;
+}
+.section-seae .flex-card .mycard .mycard-view:hover {
+  cursor: pointer;
+}
+.section-seae .flex-card .mycard .mycard-view:hover img {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.section-seae .flex-card .mycard .mycard-view img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.section-seae .flex-card .mycard .mycard-view .abso-top {
+  padding-left: 20px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding-right: 15px;
+  padding-top: 25px;
+}
+.section-seae .flex-card .mycard .mycard-view .abso-top span {
+  color: white;
+  font-size: 17px;
+}
+.section-seae .flex-card .mycard .mycard-view .abso-top span:hover {
+  color: #CC0033;
+}
+.section-seae .flex-card .mycard .mycard-view .abso-top p {
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+.section-seae .flex-card .mycard .bottom-card {
+  border: 1px solid rgb(184, 182, 182);
+  border-top: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card .left-content {
+  width: 100%;
+  padding-top: 20px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card .left-content .tile {
+  color: black;
+  font-size: 19px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card .left-content .flex-views {
+  display: flex;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card .left-content .flex-views p {
+  color: #E92026;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-card .left-content .flex-views span {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  zoom: 0.8;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo > div p {
+  font-size: 15px;
+  color: black;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo > div span {
+  margin-right: 10px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo > div span i {
+  color: black;
+  font-size: 25px;
+}
+.section-seae .flex-card .mycard .bottom-card .content-viewo > div:last-child {
+  justify-content: flex-end;
+}
+.section-seae .flex-card .mycard .bottom-card .flex-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.section-seae .flex-card .mycard .bottom-card .flex-bottom p {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section-seae .flex-card .mycard .bottom-card .flex-bottom span {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 349px) {
+  .section-seae .flex-card .mycard {
+    width: 100%;
+    zoom: 0.7;
+  }
+  .section-seae .flex-card .mycard .mycard-view {
+    height: 230px;
+  }
+}
+@media (min-width: 350px) and (max-width: 409px) {
+  .section-seae .flex-card .mycard {
+    width: 100%;
+    zoom: 0.8;
+  }
+  .section-seae .flex-card .mycard .mycard-view {
+    height: 230px;
+  }
+}
+@media (min-width: 410px) and (max-width: 499px) {
+  .section-seae .flex-card .mycard {
+    width: 100%;
+  }
+  .section-seae .flex-card .mycard .mycard-view {
+    height: 270px;
+  }
+}
+@media (min-width: 500px) and (max-width: 679px) {
+  .section-seae .flex-card .mycard {
+    width: 100%;
+  }
+  .section-seae .flex-card .mycard .mycard-view {
+    height: 280px;
+  }
+}
+@media (min-width: 680px) and (max-width: 968px) {
+  .section-seae .flex-card .mycard {
+    width: 48%;
+  }
+}
+@media (min-width: 969px) and (max-width: 1114px) {
+  .section-seae .flex-card .mycard {
+    width: 48%;
+  }
+  .section-seae .flex-card .mycard .mycard-view {
+    height: 280px;
+  }
+}/*# sourceMappingURL=section-seae.css.map */

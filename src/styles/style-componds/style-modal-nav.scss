@@ -1,0 +1,220 @@
+@import '../options/variables.scss';
+
+/* class  */
+.close-pop {
+  height: 50px;
+}
+
+.out-pop {
+  min-height: 50px;
+
+}
+
+.rotate {
+  transform: rotate(-0.25turn);
+}
+
+/* stop class */
+
+.modal-nav-home {
+
+  .pop {
+    background-color: $colorModalBlack;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2000;
+  }
+
+  .absolute {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 300px;
+    background-color: $colorWhite;
+    overflow-y: auto;
+    scrollbar-color: $colorBlack;
+    scrollbar-width: thin;
+    z-index: 2000;
+
+    .close {
+      background-color: $colorPrimary;
+      padding: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: flex-end;
+
+      i {
+        color: $colorWhite;
+        font-size: $sizeIconsMain;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+      }
+
+
+    }
+
+    .buttons {
+
+      .list-tile-top {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        a {
+          color: $colorBlack;
+          font-size: $sizeMainText;
+          padding-left: 15px;
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+
+        border-bottom: 1px solid rgb(168, 168, 168);
+      }
+
+      .list-tile {
+
+        border-bottom: 1px solid rgb(168, 168, 168);
+        padding: 15px;
+        overflow: hidden;
+
+        .title {
+          display: flex;
+          justify-content: space-between;
+
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $colorBlack;
+
+            i {
+              font-size: $sizeIconsSmall;
+              color: $colorBlack;
+            }
+
+            img {
+              width: 22px;
+              height: 16px;
+              margin-right: 5px;
+              padding-top: 1px;
+            }
+
+          }
+        }
+
+        .pop-menue {
+          padding-left: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          a {
+            text-decoration: none;
+
+            i {
+              font-size: $sizeIconsSmall;
+              color: $colorBlack;
+              padding-top: 5px;
+              margin-right: 10px;
+            }
+
+            font-size: $sizeMainText;
+            color: $colorBlack;
+            text-transform: capitalize;
+
+          }
+        }
+
+
+      }
+
+
+
+
+
+      .list-tiel-btn {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(168, 168, 168);
+        overflow: hidden;
+
+        .list {
+
+          .flex {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-bottom: 15px;
+
+            p {
+              color: $colorBlack;
+              font-size: $sizeMainText;
+              text-transform: capitalize;
+
+            }
+
+            i {
+              color: $colorBlack;
+              font-size: $sizeIconsSmall;
+
+            }
+          }
+
+          .pop-menue {
+            padding-bottom: 15px;
+            padding-left: 10px;
+            padding-top: 15px;
+            //border-bottom: 1px solid rgb(168, 168, 168);
+
+            p {
+              color: $colorBlack;
+              font-size: $sizeMainText
+            }
+
+            &:hover {
+              border-bottom: 1px solid black;
+              transition: 0.3s all;
+            }
+          }
+
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+
+    }
+
+
+  }
+}
+
+
+
+@media (min-width:0px) and (max-width:347px) {
+  .modal-nav-home {
+    zoom: 0.9;
+
+    .absolute {
+
+      width: 250px
+    }
+  }
+}
+
+@media (min-width:348px) and (max-width:400px) {
+  .modal-nav-home {
+    .absolute {
+      width: 260px
+    }
+  }
+}

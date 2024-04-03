@@ -1,0 +1,16 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-location {
+  padding-top: 30px;
+}
+.section-location .title-location {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=section-location.css.map */

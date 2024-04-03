@@ -1,0 +1,69 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-title {
+  padding-top: 65px;
+}
+.section-title .title-card {
+  padding: 40px;
+  background-color: #F6B756;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-title .title-card .left-card {
+  width: 65%;
+}
+.section-title .title-card .left-card p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  word-spacing: 10px;
+  margin-bottom: 20px;
+}
+.section-title .title-card .left-card p span {
+  color: black;
+  font-size: 19px;
+  word-spacing: 10px;
+}
+.section-title .title-card .right-card {
+  width: 30%;
+}
+.section-title .title-card .right-card:hover {
+  cursor: pointer;
+}
+.section-title .title-card .right-card:hover p {
+  background-color: #F1F1F1;
+  transition: all 0.3s ease-in-out;
+}
+.section-title .title-card .right-card p {
+  color: black;
+  background-color: white;
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  height: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 80px) and (max-width: 679px) {
+  .section-title .title-card {
+    flex-direction: column;
+    align-items: flex-start;
+    zoom: 0.9;
+  }
+  .section-title .title-card .right-card {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 680px) and (max-width: 769px) {
+  .section-title .title-card {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=section-tile.css.map */

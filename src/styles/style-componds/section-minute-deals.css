@@ -1,0 +1,78 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-minute-deals {
+  margin-top: 30px;
+  border: 1px solid rgb(232, 230, 230);
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.section-minute-deals .title-add {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section-minute-deals .flex-add {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(159, 156, 156);
+  padding-bottom: 25px;
+}
+.section-minute-deals .flex-add:last-child {
+  border-bottom: none;
+}
+.section-minute-deals .flex-add .avtar {
+  width: 100px;
+  min-width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section-minute-deals .flex-add .avtar img {
+  width: 100%;
+  height: 100%;
+}
+.section-minute-deals .flex-add .flex-cont {
+  padding-left: 10px;
+}
+.section-minute-deals .flex-add .flex-cont .icons {
+  color: orange;
+}
+.section-minute-deals .flex-add .flex-cont .icons i {
+  margin-right: 5px;
+}
+.section-minute-deals .flex-add .flex-cont p {
+  margin-top: 10px;
+}
+.section-minute-deals .flex-add .flex-cont .mytile {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+.section-minute-deals .flex-add .flex-cont .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+}
+.section-minute-deals .flex-add .flex-cont .sub-tile label {
+  font-weight: bold;
+  color: #E92026;
+  font-size: 15px;
+  margin-left: 4px;
+}
+
+@media (min-width: 3px) and (max-width: 299px) {
+  .section-minute-deals {
+    zoom: 0.8;
+  }
+}
+@media (min-width: 300px) and (max-width: 358px) {
+  .section-minute-deals {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=section-minute-deals.css.map */

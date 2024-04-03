@@ -1,0 +1,97 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.fotter-home {
+  padding-top: 50px;
+  background-color: white;
+}
+.fotter-home .flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fotter-home .flex-cards > div {
+  margin-bottom: 20px;
+}
+.fotter-home .flex-cards .section-1 {
+  width: 25%;
+}
+.fotter-home .flex-cards .section-1 .title-section {
+  color: black;
+  font-size: 19px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(190, 183, 183);
+  margin-bottom: 30px;
+  width: 50%;
+}
+.fotter-home .flex-cards .section-1 .list-tile {
+  border-left: 3px solid #E92026;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.fotter-home .flex-cards .section-1 .list-tile .sub-tile {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.fotter-home .flex-cards .section-1 .list-tile .title {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.fotter-home .flex-cards .section-1 .list-tile span {
+  color: black;
+  font-size: 17px;
+  margin-right: 30px;
+}
+.fotter-home .flex-cards .section-1 .list-tile span:hover {
+  cursor: pointer;
+}
+.fotter-home .flex-cards .section-const {
+  width: 25%;
+}
+.fotter-home .flex-cards .section-const .title-section {
+  color: black;
+  font-size: 19px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(190, 183, 183);
+  margin-bottom: 30px;
+  width: 50%;
+}
+.fotter-home .flex-cards .section-const .list-tile {
+  padding-bottom: 30px;
+}
+.fotter-home .flex-cards .section-const .list-tile a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.fotter-home .flex-cards .section-const .list-tile a:hover {
+  color: #E92026;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 50px) and (max-width: 549px) {
+  .fotter-home .flex-cards .section-const {
+    width: 100%;
+  }
+  .fotter-home .flex-cards .section-1 {
+    width: 100%;
+  }
+}
+@media (min-width: 550px) and (max-width: 968px) {
+  .fotter-home .flex-cards .section-const {
+    width: 50%;
+  }
+  .fotter-home .flex-cards .section-1 {
+    width: 50%;
+  }
+}
+@media (min-width: 969px) and (max-width: 1114px) {
+  .fotter-home .flex-cards {
+    zoom: 0.9;
+  }
+}/*# sourceMappingURL=fotter-home.css.map */

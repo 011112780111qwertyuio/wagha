@@ -1,0 +1,67 @@
+/* ===== colors ====== */
+/* ===== end colors ====== */
+/* ===== sizes ====== */
+/* ===== end sizes ====== */
+/* ===== font family */
+/* ===== stop font family */
+.section-date-time-price {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.section-date-time-price .title-price {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section-date-time-price .form-date {
+  padding-top: 20px;
+}
+.section-date-time-price .form-date .nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-date-time-price .form-date .nav > div {
+  margin-bottom: 10px;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #F3F8F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+.section-date-time-price .form-date .nav > div > :last-child {
+  margin-right: 0px;
+}
+.section-date-time-price .form-date .flex-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #313041;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-date-time-price .form-date .flex-between span {
+  color: white;
+  font-size: 25px;
+}
+.section-date-time-price .form-date .flex-between p {
+  color: white;
+  font-size: 19px;
+}
+.section-date-time-price .form-date .flex-btns {
+  width: 100%;
+  background-color: #F3F8F6;
+  height: 250px;
+  border: 1px solid black;
+  border-top: none;
+}/*# sourceMappingURL=section-date-time-price.css.map */
